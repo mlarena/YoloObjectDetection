@@ -48,6 +48,6 @@ def detect_objects_in_video(video_path, model_path):
     cv2.destroyAllWindows()
 
 # Пример использования функции
-video_path = 'VIDEO_FOLGER/pillars.avi'
-model_path = 'beststolb.pt'
+video_path = 'VIDEO_FOLDER/pillars.mp4'
+model_path = 'MODELS_FOLDER/beststolb.pt'
 detect_objects_in_video(video_path, model_path)
